@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: rgba(36, 25, 25, 0.979);
   height: 100%;
 }
 
@@ -121,7 +121,9 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #2d1f2e;
+  border-right: 2px solid rgba(255, 255, 255, 0.74);
+
   height: 300px;
   display: flex;
   width: 30%;
