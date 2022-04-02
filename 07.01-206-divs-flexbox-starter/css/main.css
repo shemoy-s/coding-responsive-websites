@@ -106,11 +106,21 @@ body {
   font-size: 1.25em;
   height: 100%;
 }
-
+header,
+main,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
